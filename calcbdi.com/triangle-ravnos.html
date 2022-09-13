@@ -31,7 +31,7 @@
 <link rel="mask-icon" href="fonts/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#ffffff">
-        <link href="css/45acade8dbd9f2571b5646a9dd75c61b-1614094873.css" rel="stylesheet">
+        <link href="css/45.css" rel="stylesheet">
         <link rel="stylesheet" href="css/share-custom.css">
 
                                     
@@ -203,7 +203,7 @@
       </div>
     </div>
 </footer>        
-        <script src="b1565059620555e9e64da983367597fd-1568142600"></script>
+        <script src="b"></script>
                 <script src="js/share.js"></script>
 
                                     <script>"use strict";var blk_a=document.querySelector("#block_st_a"),blk_h=document.querySelector("#block_st_h"),resTitle=document.querySelector(".rezult"),result=document.querySelector("#rezult"),solution=document.querySelector(".solution"),$radio=document.querySelectorAll('input[name="param"]'),$sizes=document.querySelectorAll('.sizes input[type="number"]'),$podsv=document.querySelector("#podsv"),$podsvLine=$podsv.querySelector("line"),$podsvDots=$podsv.querySelectorAll("circle"),krd=[[110,20,200,180],[110,20,110,180]];function clear(){result.innerText="",resTitle.style.display="none",solution.innerHTML=""}function res(e,t){result.innerText=e+" ед.кв.",resTitle.style.display="block",solution.innerHTML=t+'<br/><span class="el_katex lh40">S = '.concat(e,"</span><br/>Ответ: Площадь треугольника равна ").concat(e," ед.кв."),[].forEach.call(solution.children,function(e){e.classList.contains("el_katex")&&katex.render(e.innerText,e)})}function calc(){var e=Number($sizes[0].value),t=Number($sizes[1].value);$radio[0].checked?0<e?res(Math.sqrt(3)/4*(e*e),'<span class="el_katex lh80">S =\\dfrac{\\sqrt{3}}{4} a^2</span><br/><span class="el_katex lh80">S =\\dfrac{\\sqrt{3}}{4} \\cdot '.concat(e,'^2</span><br/><span class="el_katex lh80">S =\\dfrac{\\sqrt{3}}{4} \\cdot ').concat(e*e,"</span>")):clear():$radio[1].checked?0<e&&0<t?res(e*t*.5,'<span class="el_katex lh80">S =\\dfrac{1}{2}ah</span><br/><span class="el_katex lh80">S =\\dfrac{1}{2} \\cdot '.concat(e," \\cdot ").concat(t,"</span>")):clear():0<t?res(t*t/Math.sqrt(3),'<span class="el_katex lh80">S =\\dfrac{h^2}{\\sqrt{3}}</span><br/><span class="el_katex lh80">S =\\dfrac{'.concat(t,'^2}{\\sqrt{3}}</span><br/><span class="el_katex lh80">S =\\dfrac{').concat(t*t,"}{").concat(Math.sqrt(3),"}</span>")):clear()}function podsv(c){["x1","y1","x2","y2"].forEach(function(e,t){return $podsvLine.setAttribute(e,krd[c][t])}),$podsvDots.forEach(function(n,s){return["cx","cy"].forEach(function(e,t){return n.setAttribute(e,krd[c][t+2*s])})}),$podsv.style.display="block"}$sizes.forEach(function(e,t){e.addEventListener("focus",function(){return podsv(t)}),e.addEventListener("blur",function(){return $podsv.style.display="none"}),e.addEventListener("input",calc)}),$radio.forEach(function(e,t){return e.addEventListener("input",function(){0==t?(blk_a.style.display="block",blk_h.style.display="none"):(blk_a.style.display=1==t?"block":"none",blk_h.style.display="block"),calc()})});</script>

@@ -30,7 +30,7 @@
 <link rel="mask-icon" href="fonts/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#ffffff">
-        <link href="css/45acade8dbd9f2571b5646a9dd75c61b-1614094873.css" rel="stylesheet">
+        <link href="css/45.css" rel="stylesheet">
         <link rel="stylesheet" href="css/share-custom.css">
 
                                     <style>.fon-kletka_sp{padding:8px}</style>
@@ -173,7 +173,7 @@
       </div>
     </div>
 </footer>        
-        <script src="b1565059620555e9e64da983367597fd-1568142600"></script>
+        <script src="b"></script>
                 <script src="js/share.js"></script>
 
                                     <script>"use strict";var $resTitle=document.querySelector(".rezult"),$result=document.querySelector("#rezult"),$solution=document.querySelector(".solution"),$sizes=document.querySelectorAll('.sizes input[type="number"]'),$pi=document.querySelector("#pi"),$podsv=document.querySelector("#drawing #podsv"),$svgLine=$podsv.querySelector("line"),$svgDot=$podsv.querySelectorAll("circle")[0],k=[5,45];function calc(){var e=Number($sizes[0].value),t=Number($sizes[1].value);if(0<e&&0<t){var n,s,l=$pi.checked?3.14:Math.PI;t<e?(n=l*(e*e-t*t),s='<span class="el_katex lh40">S = \\pi (R^2 - r^2)</span><br/><span class="el_katex lh40">S = '.concat(l," \\cdot (").concat(e,"^2 - ").concat(t,'^2)</span><br/><span class="el_katex lh40">S = ').concat(l," \\cdot (").concat(e*e," - ").concat(t*t,')</span><br/><span class="el_katex lh40">S = ').concat(l," \\cdot ").concat(e*e-t*t,'</span><br/><span class="el_katex lh40">S = ').concat(n,"</span><br/>Ответ: площадь кольца равна ").concat(n," ед.кв."),$result.innerText=n,$resTitle.style.display="block"):e<t?(s='<span style="color:red">Радиус внутренней окружности не может быть больше радиуса внешней окружности</span>',$resTitle.style.display="none"):t==e&&(s='<span style="color:red">Радиус внутренней окружности не может быть равным радиусу внешней окружности</span>',$resTitle.style.display="none"),$solution.innerHTML=s,[].forEach.call($solution.children,function(e){e.classList.contains("el_katex")&&katex.render(e.innerText,e)})}else $result.innerText="",$resTitle.style.display="none",$solution.innerHTML=""}function podsv(e){$svgLine.setAttribute("x1",k[e]),$svgDot.setAttribute("cx",k[e]),$podsv.style.display="block"}$sizes.forEach(function(e,t){e.addEventListener("focus",function(){return podsv(t)}),e.addEventListener("blur",function(){return $podsv.style.display="none"}),e.addEventListener("input",calc)}),$pi.addEventListener("input",calc);</script>

@@ -31,7 +31,7 @@
 <link rel="mask-icon" href="fonts/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#ffffff">
-        <link href="css/45acade8dbd9f2571b5646a9dd75c61b-1614094873.css" rel="stylesheet">
+        <link href="css/45.css" rel="stylesheet">
         <link rel="stylesheet" href="css/share-custom.css">
 
                                     <style>.fon-kletka_sp{padding:8px}</style>
@@ -180,7 +180,7 @@
       </div>
     </div>
 </footer>        
-        <script src="b1565059620555e9e64da983367597fd-1568142600"></script>
+        <script src="b"></script>
                 <script src="js/share.js"></script>
 
                                     <script>"use strict";var $radio=document.querySelectorAll('.sizes input[type="radio"]'),$solution=document.querySelector(".solution"),$rd=document.querySelector("#rd"),$label=document.querySelector('label[for="rd"]'),$resTitle=document.querySelector(".rezult"),$result=document.querySelector("#rezult"),$line=document.querySelector("#drawing line"),$dot=document.querySelector("#drawing #changeable"),$pi=document.querySelector("#pi"),txt=["Радиус","Диаметр"],k=[[72,140],[72,142]];function calc(){var e=Number($rd.value);if(0<e){var t,n,r=$pi.checked?3.14:Math.PI;if($radio[0].checked){var c=e;t=r*(c*c),n='<span class="el_katex">S = \\pi r^2</span><br/><span class="el_katex">S = '.concat(r," \\cdot ").concat(c,'^2</span><br/><span class="el_katex">S = ').concat(r," \\cdot ").concat(c*c,"</span><br/>")}else{var a=e;t=r/4*(a*a),n='<span class="el_katex lh80">S = \\dfrac{\\pi}{4} D^2</span><br/><span class="el_katex lh80">S = \\dfrac{'.concat(r,"}{4} \\cdot ").concat(a,"^2</span><br/>S = ").concat(r/4," × ").concat(a*a,"<br/>")}n+="S = ".concat(t,"<br/>Ответ: Площадь круга равна ").concat(t," ед.кв."),$result.innerText=t+" ед.кв.",$resTitle.style.display="block",$solution.innerHTML=n,[].forEach.call($solution.children,function(e){e.classList.contains("el_katex")&&katex.render(e.innerText,e)})}else $result.innerText="",$resTitle.style.display="none",$solution.innerHTML=""}[$rd,$pi].forEach(function(e){return e.addEventListener("input",calc)}),$radio.forEach(function(e,t){return e.addEventListener("input",function(){$label.innerText=txt[t],$line.setAttribute("x2",k[0][t]),$dot.setAttribute("cx",k[1][t]),calc()})});</script>

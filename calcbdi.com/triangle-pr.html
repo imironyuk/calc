@@ -27,7 +27,7 @@
 <link rel="mask-icon" href="fonts/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#ffffff">
-        <link href="css/45acade8dbd9f2571b5646a9dd75c61b-1614094873.css" rel="stylesheet">
+        <link href="css/45.css" rel="stylesheet">
         <link rel="stylesheet" href="css/share-custom.css">
 
                                     
@@ -185,7 +185,7 @@
       </div>
     </div>
 </footer>        
-        <script src="b1565059620555e9e64da983367597fd-1568142600"></script>
+        <script src="b"></script>
                 <script src="js/share.js"></script>
 
                                     <script>"use strict";var $sizes=document.querySelectorAll('.sizes input[type="number"]'),$label=document.querySelector('label[for="katgip"]'),$radio=document.querySelectorAll('input[name="option"]'),$resTitle=document.querySelector(".rezult"),$result=document.querySelector("#rezult"),$solution=document.querySelector(".solution"),$svgLine=document.querySelector("#drawing line"),txt=["Катет 2","Гиппотенуза"],k={0:[20,150,150,150],1:[[20,20,20,150],[20,20,150,150]]};function calc(){var e,n,t=Number($sizes[0].value),a=Number($sizes[1].value);0<t&&0<a?(n=$radio[0].checked?(e=t*a*.5,'<span class="el_katex lh80">S =\\dfrac{a \\cdot b}{2}</span><br/><span class="el_katex lh80">S =\\dfrac{'.concat(t," \\cdot ").concat(a,'}{2}</span><br/><span class="el_katex lh80">S =\\dfrac{').concat(t*a,"}{2}</span><br/>S = ").concat(e,"<br/>Ответ: Площадь треугольника равна ").concat(e," ед.кв.")):a<=t?'<span style="color:red">Гиппотенуза должна быть больше катета</span>':(e=t*Math.sqrt(a*a-t*t)*.5,'<span class="el_katex lh80">S =\\dfrac{a \\cdot b}{2}</span><br/><span class="el_katex lh40">c^2 = a^2 + b^2</span><br/><span class="el_katex lh40">b = \\sqrt{c^2 - a^2}</span><br/><span class="el_katex lh40">b = \\sqrt{'.concat(a,"^2 - ").concat(t,'^2}</span><br/><span class="el_katex lh40">b = \\sqrt{').concat(a*a," - ").concat(t*t,'}</span><br/><span class="el_katex lh40">b = \\sqrt{').concat(a*a-t*t,'}</span><br/><span class="el_katex lh40">b = ').concat(Math.sqrt(a*a-t*t),'</span><br/><span class="el_katex lh80">S =\\dfrac{a \\cdot b}{2}</span><br/><span class="el_katex lh80">S =\\dfrac{').concat(t," \\cdot ").concat(Math.sqrt(a*a-t*t),'}{2}</span><br/><span class="el_katex lh80">S =\\dfrac{').concat(t*Math.sqrt(a*a-t*t),"}{2}</span><br/>S = ").concat(e,"<br/>Ответ: Площадь треугольника равна ").concat(e," ед.кв.")),e?($result.innerText=e+" ед.кв.",$resTitle.style.display="block"):$resTitle.style.display="none",$solution.innerHTML=n,[].forEach.call($solution.children,function(e){e.classList.contains("el_katex")&&katex.render(e.innerText,e)})):($result.innerText="",$resTitle.style.display="none",$solution.innerHTML="")}function podsv(t){["x1","y1","x2","y2"].forEach(function(e,n){$svgLine.setAttribute(e,0==t?k[0][n]:$radio[0].checked?k[1][0][n]:k[1][1][n])}),$svgLine.style.display="block"}$sizes.forEach(function(e,n){e.addEventListener("focus",function(){return podsv(n)}),e.addEventListener("blur",function(){return $svgLine.style.display="none"}),e.addEventListener("input",calc)}),$radio.forEach(function(e,n){return e.addEventListener("input",function(){$label.innerText=txt[n],calc()})});</script>
