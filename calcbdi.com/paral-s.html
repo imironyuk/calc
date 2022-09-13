@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+    
+    <title>Площадь параллелограмма</title>
+	
+    <meta name="title" content="Площадь параллелограмма">
+
+<meta name="robots" content="index, follow">
+
+    <meta name="metatitle" content="Онлайн калькулятор для расчёта площади параллелограмма">
+
+    <meta name="description" content="Посчитайте площадь параллелограмма на удобном и понятном онлайн калькуляторе и посмотрите полное решение, а так же теорию по параллелограммам.">
+
+    <meta name="keywords" content="параллелограмм, площадь, калькулятор, онлайн">
+
+
+
+    <meta property="og:title" content="Онлайн калькулятор для расчёта площади параллелограмма">
+
+    <meta property="og:type" content="article">
+
+    <meta property="og:description" content="Посчитайте площадь параллелограмма на удобном и понятном онлайн калькуляторе и посмотрите полное решение, а так же теорию по параллелограммам.">
+
+<meta property="og:locale" content="ru_RU">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="fonts/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+        <link href="css/45acade8dbd9f2571b5646a9dd75c61b-1614094873.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/share-custom.css">
+
+                                    <style>.symbInput{font-size:1.3rem;font-family:KaTeX_Math}
+.fon-kletka_sp{padding:8px}</style>
+                            
+                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client:"ca-pub-5439947854270560",enable_page_level_ads:true});</script>                        </head>
+    <body>
+        <header>
+<nav class="nav-extended cyan darken-4">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo">
+            <svg width="28" height="28" viewBox="0 0 24 24" role="img">
+                <path d="M13 24h6c2.762 0 5-2.239 5-5v-6h-11v11zm3-7h5v1h-5v-1zm0 2h5v1h-5v-1zm-16 0c0 2.761 2.239 5 5 5h6v-11h-11v6zm3-1h2v-2h1v2h2v1h-2v2h-1v-2h-2v-1zm16-18h-6v11h11v-6c0-2.761-2.238-5-5-5zm-.5 3c.276 0 .5.224.5.5s-.224.5-.5.5-.5-.224-.5-.5.224-.5.5-.5zm0 5c-.276 0-.5-.224-.5-.5s.224-.5.5-.5.5.224.5.5-.224.5-.5.5zm2.5-2h-5v-1h5v1zm-21-1v6h11v-11h-6c-2.761 0-5 2.239-5 5zm6.914-1.622l.708.708-1.415 1.414 1.414 1.414-.707.707-1.414-1.414-1.414 1.414-.708-.707 1.414-1.414-1.414-1.414.707-.707 1.415 1.414 1.414-1.415z"/>
+            </svg> Калькулятор
+        </a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+            <svg viewBox="0 0 30 30" width="30" height="30" style="vertical-align:middle" focusable="false">
+                <title>Меню</title>
+                <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+        </a>
+    </div>
+</nav>
+
+</header>
+
+        <div class="section no-pad-bot grey lighten-4">
+    <div class="container">
+        <h1 class="header center orange-text">Площадь параллелограмма</h1>
+        <div class="row center">
+            <h5 class="header col s12 light">Онлайн калькулятор для расчёта площади параллелограмма</h5>
+
+                    </div>
+        <br>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <main class="col s12 xl9">
+
+            
+            <div class="col s12">
+    <p>Выберите каким способом считать площадь параллелограмма:</p>
+    <div>
+        <p>
+            <label>
+                <input class="with-gap" name="param" type="radio" checked>
+                <span>Через сторону и высоту</span>
+            </label><br>
+            <label>
+                <input class="with-gap" name="param" type="radio">
+                <span>Через стороны и угол</span>
+            </label><br>
+            <label>
+                <input class="with-gap" name="param" type="radio">
+                <span>Через диагонали и угол между ними</span>
+            </label>
+        </p>
+    </div>
+    <h5>Размеры:</h5>
+    <div class="row fon-kletka_sp">
+        <div class="col l4">
+            <svg id="drawing" height="180" width="230" role="img">
+                <polygon points="60,20 220,20 170,150 10,150" style="fill:#f0ffff;stroke:#333;stroke-width:2"/>
+                <g id="diagonals" style="display:none;stroke:#777;stroke-width:1">
+                    <line x1="60" y1="20" x2="170" y2="150"/>
+                    <line x1="10" y1="150" x2="220" y2="20"/>
+                </g>
+                <g id="degs" style="display:none;fill:none;stroke-width:1;stroke:#777">
+                    <circle/><circle/><circle/>
+                </g>
+                <g id="height">
+                    <line x1="100" y1="20" x2="100" y2="150" style="stroke:blue;stroke-width:2"/>
+                    <polyline points="100,140 110,140 110,150" style="fill:none;stroke:#333;stroke-width:1"/>
+                </g>
+                <g id="drawingText" style="font-size:25px;font-family:KaTeX_Math">
+                    <text x="90" y="170" fill="green">a</text>
+                    <text x="110" y="90" fill="blue">h</text>
+                </g>
+                <g id="podsv" style="display:none">
+                    <line style="stroke:red;stroke-width:3"/>
+                    <circle class="dots" r="3"/>
+                    <circle class="dots" r="3"/>
+                </g>
+            </svg>
+        </div>
+        <div class="col s12 l6 sizes">
+            <div class="input-field">
+                <input id="dimension_1" type="number" min="0" autocomplete="off">
+                <label for="dimension_1">Сторона</label>
+            </div>
+            <div class="input-field">
+                <input id="dimension_2" type="number" min="0" autocomplete="off">
+                <label for="dimension_2">Высота</label>
+            </div>
+            <div class="input-field" style="display:none">
+                <input id="dimension_3" type="number" min="0" autocomplete="off">
+                <label for="dimension_3">Угол α или β (в градусах)</label>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="rezult">Результат: <span id="rezult"></span></div>
+<h4>Решение</h4>
+<div class="solution"></div>
+                                      <div style="margin:20px 0">
+                                                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5439947854270560" data-ad-slot="5966026408" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>                                            </div>
+                
+                <h4>Теория</h4>
+<p><strong class="definition">Параллелограмм</strong> - это четырёхугольник у которого противоположные стороны параллельны.</p>
+<p>У параллелограмма противоположные стороны и противоположные углы равны.</p>
+<p><strong class="definition">Высота параллелограмма</strong> - это перпендикуляр, опущенный из любой точки одной стороны параллелограмма на прямую, содержащую противоположную сторону.</p>
+<p>Высотой параллелограмма также называют длину этого перпендикуляра. Расстояние между противоположными сторонами параллелограмма равно высоте параллелограмма.</p>
+<h2 class="center">Формулы площади параллелограмма</h2>
+<h4>Площадь параллелограмма через сторону и высоту</h4>
+<div class="flex-evenly">
+    <div>
+        <svg height="190" width="230" role="img" aria-label="Параллелограмм" style="display:block">
+            <polygon points="60,20 220,20 170,150 10,150" style="fill:#f0ffff;stroke:#000;stroke-width:2"/>
+            <circle class="dots" cx="60" cy="20" r="3"/>
+            <circle class="dots" cx="220" cy="20" r="3"/>
+            <circle class="dots" cx="170" cy="150" r="3"/>
+            <circle class="dots" cx="10" cy="150" r="3"/>
+            <line x1="100" y1="20" x2="100" y2="150" style="stroke:red;stroke-width:2"/>
+            <polyline points="100,140 110,140 110,150" style="fill:none;stroke:red;stroke-width:1"/>
+            <g style="font-size:25px;font-family:KaTeX_Math">
+                <text x="90" y="170" fill="green">a</text>
+                <text x="105" y="90" fill="red">h</text>
+                <text x="120" y="90" fill="red" style="font-size:15px">a</text>
+            </g>
+        </svg>
+        <div class="formula">S = a \cdot h_a</div>
+        <ul class="where-f">
+            <li><strong>S</strong> - площадь параллелограмма</li>
+            <li><strong>a</strong> - сторона</li>
+            <li><strong>h</strong> - высота опущенная на сторону <strong>a</strong></li>
+        </ul>
+    </div>
+    <div>
+        <svg height="190" width="230" role="img" style="display:block;font-size:19px;font-weight:bold">
+            <polygon points="60,20 220,20 170,150 10,150" style="fill:#f0ffff;stroke:#000;stroke-width:2"/>
+            <circle class="dots" cx="60" cy="20" r="3"/>
+            <circle class="dots" cx="220" cy="20" r="3"/>
+            <circle class="dots" cx="170" cy="150" r="3"/>
+            <circle class="dots" cx="10" cy="150" r="3"/>
+            <line x1="40" y1="70" x2="190" y2="95" style="stroke:blue;stroke-width:2"/>
+            <polyline points="180,95 183,84 195,86" style="fill:none;stroke:blue;stroke-width:1"/>
+            <circle class="dots" cx="41" cy="70" r="3"/>
+            <circle class="dots" cx="191" cy="95" r="3"/>
+            <text x="190" y="130" fill="red">b</text>
+            <text x="120" y="70" fill="blue">h</text>
+            <text x="130" y="75" fill="blue" style="font-size:13px;">b</text>
+        </svg>
+        <div class="formula">S = b \cdot h_b</div>
+        <ul class="where-f">
+            <li><strong>S</strong> - площадь параллелограмма</li>
+            <li><strong>a</strong> - сторона</li>
+            <li><strong>h</strong> - высота опущенная на сторону <strong>b</strong></li>
+        </ul>
+    </div>
+</div>
+<hr>
+<p>&nbsp;</p>
+<h4 class="center">Площадь параллелограмма через стороны и углы</h4>
+<div class="center">
+    <svg height="180" width="230" role="img" style="font-size:19px;font-weight:bold">
+        <polygon points="60,20 220,20 170,150 10,150" style="fill:#f0ffff;stroke:#000;stroke-width:1"/>
+        <line x1="110" y1="20" x2="110" y2="180" style="display:none;stroke:red;stroke-width:3"/>
+        <polyline points="100,140 110,140 110,150" style="display:none;fill:none;stroke:red;stroke-width:1"/>
+        <circle cx="60" cy="20" r="10" stroke="blue" stroke-width="1" fill="none" stroke-dasharray="19,47"/>
+        <circle cx="220" cy="20" r="12" stroke="blue" stroke-width="1" fill="none" stroke-dasharray="0,11% 7%,79%"/>
+        <circle cx="220" cy="20" r="16" stroke="blue" stroke-width="1" fill="none" stroke-dasharray="0,15% 9%,79%"/>
+        <circle class="dots" cx="60" cy="20" r="3"/>
+        <circle class="dots" cx="220" cy="20" r="3"/>
+        <circle class="dots" cx="170" cy="150" r="3"/>
+        <circle class="dots" cx="10" cy="150" r="3"/>
+        <text x="90" y="170" fill="green">a</text>
+        <text x="200" y="100" fill="red">b</text>
+        <text x="70" y="40" fill="blue" style="font-weight:normal">α</text>
+        <text x="185" y="40" fill="blue" style="font-weight:normal">β</text>
+    </svg>
+</div>
+<div class="flex-evenly">
+    <div class="formula">S = a \cdot b \cdot \sin \alpha</div>
+    <div class="formula">S = a \cdot b \cdot \sin \beta</div>
+</div>
+<div class="flex-evenly">
+    <ul class="where-f">
+        <li><strong>S</strong> - площадь параллелограмма</li>
+        <li><strong>a</strong>, <strong>b</strong> - противоположные стороны параллелограмма</li>
+        <li><strong>α</strong>, <strong>β</strong> - углы между диагоналями (в градусах)</li>
+    </ul>
+</div>
+<hr>
+<p>&nbsp;</p>
+<h4 class="center">Площадь параллелограмма через диагонали и угол между ними</h4>
+<div class="center">
+    <svg height="155" width="225" role="img" style="font-size:19px;font-weight:bold">
+        <polygon points="60,20 220,20 170,150 10,150" style="fill:#f0ffff;stroke:#000;stroke-width:1"/>
+        <line x1="110" y1="20" x2="110" y2="180" style="display:none;stroke:red;stroke-width:3"/>
+        <line x1="60" y1="20" x2="170" y2="150" style="stroke:green;stroke-width:2"/>
+        <text x="60" y="50" fill="green">d</text>
+        <line x1="10" y1="150" x2="220" y2="20" style="stroke:blue;stroke-width:2"/>
+        <text x="40" y="120" fill="blue">D</text>
+        <polyline points="100,140 110,140 110,150" style="display:none;fill:none;stroke:red;stroke-width:1"/>
+        <circle cx="115" cy="85" r="14" stroke="#777" stroke-width="1" fill="none" stroke-dasharray="10 70"/>
+        <text x="135" y="95" fill="#777" style="font-weight:normal">α</text>
+        <circle cx="115" cy="85" r="12" stroke="red" stroke-width="1" fill="none" stroke-dasharray="0,6% 10%,50%"/>
+        <circle cx="115" cy="85" r="16" stroke="red" stroke-width="1" fill="none" stroke-dasharray="0,7% 15%,79%"/>
+        <text x="110" y="120" fill="red" style="font-weight:normal">β</text>
+        <circle class="dots" cx="60" cy="20" r="3"/>
+        <circle class="dots" cx="220" cy="20" r="3"/>
+        <circle class="dots" cx="170" cy="150" r="3"/>
+        <circle class="dots" cx="10" cy="150" r="3"/>
+    </svg>
+</div>
+<div class="flex-evenly">
+    <div class="formula">S = \dfrac{1}{2} \cdot D \cdot d \cdot \sin \alpha</div>
+    <div class="formula">S = \dfrac{1}{2} \cdot D \cdot d \cdot \sin \beta</div>
+</div>
+<div class="flex-evenly">
+    <ul class="where-f">
+        <li><strong>S</strong> - площадь параллелограмма</li>
+        <li><strong style="color:green">D</strong> - большая диагональ параллелограмма</li>
+        <li><strong style="color:blue">d</strong> - меньшая диагональ параллелограмма</li>
+        <li><strong style="color:#777">α</strong>, <strong style="color:red">β</strong> - углы между диагоналями (в градусах)</li>
+    </ul>
+</div>
+                        
+            
+
+
+                    </main>
+
+        <aside class="col s12 l6 xl3">
+                                                                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5439947854270560" data-ad-slot="7907338626" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                                                
+        </aside>
+    </div>
+</div>
+                
+                                        <div class="container" style="margin:30px auto">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5439947854270560" data-ad-slot="3018975112" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+                    
+                    <nav class="pink darken-4">
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="col s12">
+             <a href="index.html" class="breadcrumb">Главная</a>
+                                                    <a href="paral-s.html" class="breadcrumb">Площадь параллелограмма</a>
+                                            </div>
+        </div>
+    </div>
+</nav>        
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+         <a class="orange-text text-lighten-3" >© 2021-2021</a> 
+    </div>
+</footer>        
+        <script src="b1565059620555e9e64da983367597fd-1568142600"></script>
+                <script src="js/share.js"></script>
+
+                                    <script>"use strict";var $radio=document.querySelectorAll('input[name="param"]'),$sizes=document.querySelectorAll('.sizes input[type="number"]'),$sizBloks=document.querySelectorAll(".sizes .input-field"),$labels=document.querySelectorAll(".sizes .input-field label"),lblTxt=[["Сторона","Высота",""],['Сторона <span class="symbInput" style="color:green">a</span>','Сторона <span class="symbInput" style="color:blue">b</span>',"Угол α или β"],['Диагональ <span class="symbInput" style="color:green">D</span>','Диагональ <span class="symbInput" style="color:blue">d</span>',"Угол α или β"]],$drawing=document.querySelector("#drawing"),$drawBlkH=$drawing.querySelector("#height"),$diagonals=$drawing.querySelector("#diagonals"),$degs=$drawing.querySelector("#degs"),$drawText=$drawing.querySelectorAll("#drawingText text"),$podsv=$drawing.querySelector("#podsv"),$podsvLine=$podsv.querySelector("line"),$podsvDots=$podsv.querySelectorAll("circle"),krd=[[[10,150,170,150],[100,20,100,150]],[[10,150,170,150],[170,150,220,20]],[[10,150,220,20],[60,20,170,150]]],$resTitle=document.querySelector(".rezult"),$result=document.querySelector("#rezult"),$solution=document.querySelector(".solution");function clear(){$result.innerText="",$resTitle.style.display="none",$solution.innerHTML=""}function calc(){var e,n;if($radio[0].checked){var t=Number($sizes[0].value),s=Number($sizes[1].value);0<t&&0<s?(e=t*s,n='<span class="el_katex lh40">S = a \\cdot h</span><br/><span class="el_katex lh40">S = '.concat(t," \\cdot ").concat(s,'</span><br/><span class="el_katex lh40">S = ').concat(e,"</span><br/>Ответ: Площадь параллелограмма равна ").concat(e," ед.кв.")):clear()}else if($radio[1].checked){var a=Number($sizes[0].value),c=Number($sizes[1].value),r=Number($sizes[2].value);if(0<a&&0<c&&0<r){var l=1e10*Math.sin(r*Math.PI/180).toFixed(10)/1e10;e=a*c*l,n='<span class="el_katex lh40">S = a \\cdot b  \\cdot \\sin \\alpha</span><br/><span class="el_katex lh40">S = '.concat(a," \\cdot ").concat(c," \\cdot \\sin( ").concat(r,'\\degree )</span><br/><span class="el_katex lh40">\\sin(').concat(r,"\\degree) = ").concat(l,'</span><br/><span class="el_katex lh40">S = ').concat(a," \\cdot ").concat(c," \\cdot ").concat(l,'</span><br/><span class="el_katex lh40">S = ').concat(e,"</span><br/>Ответ: Площадь параллелограмма равна ").concat(e," ед.кв.")}else clear()}else if($radio[2].checked){var o=Number($sizes[0].value),i=Number($sizes[1].value),d=Number($sizes[2].value);if(0<o&&0<i&&0<d){var u=1e10*Math.sin(d*Math.PI/180).toFixed(10)/1e10;e=.5*o*i*u,n='<span class="el_katex lh80">S = \\dfrac{1}{2} \\cdot D \\cdot d \\cdot \\sin \\alpha</span><br/><span class="el_katex lh80">S = \\dfrac{1}{2} \\cdot '.concat(o," \\cdot ").concat(i," \\cdot \\sin( ").concat(d,'\\degree )</span><br/><span class="el_katex lh40">\\sin(').concat(d,"\\degree) = ").concat(u,'</span><br/><span class="el_katex lh80">S = \\dfrac{1}{2} \\cdot ').concat(o," \\cdot ").concat(i," \\cdot ").concat(u,'</span><br/><span class="el_katex lh40">S = ').concat(e,"</span><br/>Ответ: Площадь параллелограмма равна ").concat(e," ед.кв.")}else clear()}e?($result.innerText=e+" ед.кв.",$resTitle.style.display="block",$solution.innerHTML=n,[].forEach.call($solution.children,function(e){e.classList.contains("el_katex")&&katex.render(e.innerText,e)})):clear()}function drawTxt(a){var c=[[["a",90,170],["h",110,90]],[["a",90,170],["b",200,100]],[["D",30,125],["d",55,50]]];$drawText.forEach(function(t,s){["x","y"].forEach(function(e,n){return t.setAttribute(e,c[a][s][n+1])}),t.textContent=c[a][s][0]})}function podsv(e){var t;if($radio.forEach(function(e,n){return e.checked?t=n:0}),2==e)$degs.style.stroke="red";else{var s=krd[t][e],a=[[s[0],s[1]],[s[2],s[3]]];["x1","y1","x2","y2"].forEach(function(e,n){return $podsvLine.setAttribute(e,s[n])}),$podsvDots.forEach(function(t,s){return["cx","cy"].forEach(function(e,n){return t.setAttribute(e,a[s][n])})}),$podsv.style.display="block"}}function koordDegs(a){$degs.querySelectorAll("circle").forEach(function(t,s){return["cx","cy","r","stroke-dasharray"].forEach(function(e,n){return t.setAttribute(e,a[s][n])})})}$sizes.forEach(function(e,n){e.addEventListener("focus",function(){return podsv(n)}),e.addEventListener("blur",function(){$podsv.style.display="none",$degs.style.stroke="#777"}),e.addEventListener("input",calc)}),$radio.forEach(function(e,t){return e.addEventListener("input",function(){drawTxt(t),$labels.forEach(function(e,n){return e.innerHTML=lblTxt[t][n]}),$sizBloks[2].style.display=0==t?"none":"block",$drawBlkH.style.display=0==t?"block":"none",$diagonals.style.display=2==t?"block":"none",1==t?koordDegs([[60,20,10,"19,47"],[220,20,12,"0,10% 6%,79%"],[220,20,16,"0,14% 8%,79%"]]):2==t&&koordDegs([[115,85,14,"10 70"],[115,85,12,"0,5% 9%,50%"],[115,85,16,"0,6% 12%,78%"]]),$degs.style.display=0==t?"none":"block",calc()})});</script>
+                                        <script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js","ym");ym(55071055,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});</script>        
+            </body>
+</html>
